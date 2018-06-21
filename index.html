@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+	<link rel="stylesheet" type:"text/css" href="style.css">
+	<title>Znake</title>
+</head>
+<body>
+	<header>
+		<h1>ZNAKE</h1>
+	</header>
+
+	<div class="allCanvas">
+		<canvas id="myCanvas" width="350" height ="350">
+		</canvas>
+
+		<canvas id="dualCanvas" width="350" height ="350">
+		</canvas>
+
+		<canvas id="survivalCanvas" width="350" height ="350">
+		</canvas>
+	</div>
+
+	<!-- <div class="winnerScreen">
+		<p class="notice" id="playerLeft">Player Left Win!</p>
+		<p class="notice" id="playerRight">Player Right Win!</p>
+		<p class="notice" id="noPlayer">It's a Tie!</p>
+	</div> -->
+
+	<p class="control" id="onePlayerControl"><br><br><br>W - Up<br>S - Down<br>A - Left<br>D - Right</p>
+	
+	<p class="control" id="twoPlayerControl"><span><u>Player Left</u><br><br>W - Up<br>S - Down<br>A - Left<br>D - Right</span><span><u>Player Right</u><br><br>I - Up<br>K - Down<br>J - Left<br>L - Right</span></p>
+
+	<div class="allButton">
+		<button class="button" id="onePlayer">1 Player</button>
+		<button class="button" id="twoPlayer">2 Players</button>
+		<button class="button" id="highScoreMode">HighScore</button>
+		<button class="button" id="survivalMode">Survival</button>
+		<button class="button" id="btn">Start</button>
+		<button class="button" id="survivalBtn">Start</button>
+		<button class="button" id="backBtn">Back</button>
+		<button class="button" id="controlBtnP1">Control</button>
+		<button class="button" id="controlBtnP2">Control</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
